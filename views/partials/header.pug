@@ -1,0 +1,12 @@
+header
+    h1 Lab 4 PassportAuthenication
+    nav
+        if (!user)
+            a(href='/login') Login 
+            | | 
+            a(href='/register') Register
+        else
+            a(href='/users') Users
+            | | 
+            a(href='/logout') Logout
+    hr
